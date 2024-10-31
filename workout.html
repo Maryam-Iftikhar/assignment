@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Workout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header section code -->
+    <header>
+        <a href="#home" class="logo">Fitness <span> Hub</span></a>
+        <div class='bx bx-menu' id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="workout.html">Workout</a></li>
+            <li><a href="nutrition.html">Nutrition</a></li>
+            <li><a href="photos.html">Photo Gallery</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+        <div class="top-btn">
+            <a href="#" class="nav-btn">Join Us</a>
+        </div>
+     </header>
+     <script>
+        const menuIcon = document.getElementById('menu-icon');
+        const navbar = document.querySelector('.navbar');
+    
+        menuIcon.addEventListener('click', () => {
+            navbar.classList.toggle('active');
+        });
+    </script>
+     <!-- Workout Routine Section -->
+    <section class="workout-section">
+        <h1>Workout Routines</h1>
+        <p>I work out because I really, really like dessert.</p>
+
+        <!-- Routine 1 -->
+        <div class="routine">
+            <h2>Full-Body Strength Training</h2>
+            <p>Boost your strength with exercises targeting every major muscle group.</p>
+            <ul>
+                <li><h3>Benefits:</h3></li>
+                <li><strong>Time-efficient: </strong>Works multiple muscle groups in one session</li>
+                <li><strong>overall strength: </strong>  Engages major muscle groups, promoting balanced development.</li>
+                <li><strong>Boosts metabolism: </strong>Increases calorie burn during and after workouts.</li>
+                <li><strong> Versatile: </strong>Suitable for beginners to advanced lifters, can be done with bodyweight, free weights, or machines.</li>
+            </ul>
+            <p><h3>Full-Body Strength Training Routine:</h3>
+                <ul>
+                <li><strong>Dynamic stretches: </strong>Arm circles, leg swings, torso twists.</li>
+                <li><strong>Light cardio: </strong>Jumping jacks, brisk walking, or cycling to increase heart rate.</li>
+                <li><strong>Workout Structure Frequency: </strong>Aim for 2-3 times per week, with at least one rest day in between.</li>
+                </p>
+                <img src="Strenght.jpg" alt="Strength Training" class="responsive-img1">
+        </div>
+
+        <!-- Routine 2 -->
+        <div class="routine" >
+            <h2>HIIT Workout</h2>
+            <p>High-intensity workout to boost your metabolism and burn calories.</p>
+            <ul>
+                <li><h3>Benefits:</h3></li>
+                <li><strong>Time-efficient: </strong> You can achieve significant results in 20-30 minutes.</li>
+                <li><strong>Increased calorie burn: </strong> HIIT can lead to higher calorie expenditure during and after the workout due to the afterburn effect (EPOC).</li>
+                <li><strong>Improved cardiovascular health:</strong> Enhances heart and lung capacity.</li>
+                <li><strong>Versatility:</strong> Can be done with bodyweight, weights, or cardio equipment.</li>
+            </ul>
+            <p><h3>HIIT Workout Routine:</h3>
+                <div>
+                HIIT Workout routines include Jumping jacks, Arm circles, Bodyweight squats, Burpees, High knees and push ups.
+            </div>
+            </p>
+                <img src="HIIT.jpg" alt="HIIT Workout" class="responsive-img1">
+        </div>
+
+        <!-- Routine 3 -->
+        <div class="routine">
+            <h2>Cardio & Core</h2>
+            <p>Burn calories and strengthen your core with these effective exercises.</p>
+            <ul>
+                <li><h3>Benefits:</h3></li>
+                <li><strong>Improved Cardiovascular Health:</strong> Engaging in regular cardio strengthens the heart, increases blood circulation, and improves overall cardiovascular endurance.</li>
+                <li><strong>Enhanced Core Strength:</strong> Core exercises build stability, balance, and strength in the abdominal and lower back muscles, which are crucial for overall movement and posture.</li>
+                <li><strong>Improved Posture:</strong> Strengthening the core can lead to better posture, which reduces strain on the back and neck.</li>
+                <li><strong>Stress Relief:</strong>Both cardio and core workouts release endorphins, which can help reduce stress and improve mood.</li>
+            </ul>
+            <p> <h3>cardio Circuit</h3> 
+                <div>
+    
+                It includes Jumping jacks, High knees, Butt kicks,Russian twists,Bicycle crunches and leg raises.</div></p>
+                <img src="cardio.jpg" alt="Cardio Workout" class="responsive-img1">
+        </div>
+        <!-- footer section code -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3>Useful Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="workout.html">Workout</a>
+                    <a href="nutrition.html">Nutrition</a>
+                    <a href="photos.html">Photo Gallery</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+                <div class="footer-col">
+                    <h3>Sign Up Now</h3>
+                    <form>
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit">Sign Up</button>
+                    </form>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <p>Wadi al Hadraj, As-safa 1, Jeddah KSA</p>
+                    <p>Email: xyz@gmail.com</p>
+                    <p>Phone: +966 560725632</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Fitness Hub. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
