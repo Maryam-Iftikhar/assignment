@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Nutrition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header section code -->
+     <header>
+        <a href="#home" class="logo">Fitness <span> Hub</span></a>
+        <div class='bx bx-menu' id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="workout.html">Workout</a></li>
+            <li><a href="nutrition.html">Nutrition</a></li>
+            <li><a href="photos.html">Photo Gallery</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+        <div class="top-btn">
+            <a href="#" class="nav-btn">Join Us</a>
+        </div>
+     </header>
+     <script>
+        const menuIcon = document.getElementById('menu-icon');
+        const navbar = document.querySelector('.navbar');
+    
+        menuIcon.addEventListener('click', () => {
+            navbar.classList.toggle('active');
+        });
+    </script>
+     <!-- Nutrition Guide Section -->
+    <section class="nutrition-guide">
+        <h1>Nutrition Guide</h1>
+        <p>Discover the essentials of meal planning, healthy eating habits, and delicious recipes to support your fitness goals.</p>
+
+        <!-- Meal Planning Section -->
+        <div class="guide-section">
+            <h2>Meal Planning</h2>
+            <p>Create a Nourishing Meal Plan for Optimal Health and Energy</p>
+            <ul>
+                <li> <h3>Incorporate Lean Proteins:</h3> Choose sources like chicken, fish, turkey, and 
+                    legumes (such as beans and lentils) to support muscle health and keep you feeling full.</li>
+                <li><h3>Select Complex Carbohydrates:</h3> Opt for whole grains like brown rice, quinoa, and oats to provide 
+                    sustained energy and essential nutrients.</li>
+                <li><h3>Add Colorful Vegetables:</h3> Include a variety of vegetables in different colors, such as spinach, bell peppers, carrots, and broccoli,
+                     to ensure a wide range of vitamins and minerals.</li>
+                <li><h3>Include Healthy Fats:</h3> Incorporate sources of healthy fats, like avocado, nuts, seeds, and olive oil, 
+                    to promote heart health and enhance nutrient absorption.</li>
+            </ul>
+            <img src="lunch box.jpg" alt="Meal Planning Image" class="responsive-img">
+        </div>
+
+        <!-- Healthy Eating Habits Section -->
+        <div class="guide-section">
+            <h2>Healthy Eating Habits</h2>
+            <p>Develop sustainable habits that will help you stay fit and healthy over time.</p>
+            <ul>
+                <li><h3>Stay Hydrated:</h3> Aim to drink at least 8 glasses (about 2 liters) of water daily.
+                     Proper hydration supports metabolism, digestion, and overall health.</li>
+                <li><h3>Limit Sugary Drinks and Processed Foods:</h3> Reduce your intake of sugary beverages and heavily processed foods.
+                     Opt for whole,nutrient-dense foods to nourish your body and maintain stable energy levels</li>
+                <li><h3>Practice Mindful Eating: </h3>Focus on your meals by eating slowly and savoring each bite. Pay attention to hunger and fullness cues,
+                     which can help you practice portion control and avoid overeating.</li>
+                <li><h3>Increase Fiber Intake: </h3>Incorporate more fiber-rich foods, such as fruits, vegetables, whole grains, and legumes. 
+                    Fiber aids digestion, promotes satiety, and supports long-term healt</li>
+            </ul>
+            <img src="avocado toast.jpg" alt="Healthy Habits Image" class="responsive-img">
+        </div>
+
+        <!-- Recipes Section -->
+        <div class="guide-section">
+            <h2>Healthy Recipes</h2>
+            <p>Explore easy-to-make recipes that align with your fitness goals.</p>
+            <ul>
+                <li><h3>Avocado Toast:</h3>
+                    <h5>Ingredients:</h5> Whole grain bread, ripe avocado, eggs (poached or scrambled), salt, pepper, and optional toppings like cherry tomatoes or red pepper flakes.
+                    <h5>Instructions:</h5> Toast the bread, mash the avocado with a pinch of salt and pepper, spread it on the toast, a
+                    nd top with cooked eggs. Add any additional toppings you like!</li>
+                <li><h3>Grilled Chicken Salad:</h3>
+                    <h5>Ingredients:</h5> Mixed leafy greens (spinach, kale, arugula), grilled chicken breast (sliced), nuts (such as almonds or walnuts), cherry tomatoes,
+                     cucumber, and a vinaigrette dressing.
+                    <h5>Instructions:</h5> In a bowl, combine the greens, sliced chicken, and chopped 
+                    vegetables. Top with nuts and drizzle with your favorite vinaigrette. Toss to combine</li>
+                <li><h3>Smoothie Bowl:</h3>
+                    <h5>Ingredients:</h5> Frozen fruits (like bananas and berries), Greek yogurt or a dairy-free alternative, a splash of almond milk, and toppings 
+                    like granola, seeds, and fresh fruit.
+                    <h5>Instructions: </h5>Blend the frozen fruits, yogurt, and almond milk until smooth. 
+                    Pour into a bowl and top with granola, seeds, and slices of fresh fruit for added texture and nutrition.</li>
+            </ul>
+            <img src="fruit bowl.jpg" alt="Recipes Image" class="responsive-img">
+        </div>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3>Useful Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="workout.html">Workout</a>
+                    <a href="nutrition.html">Nutrition</a>
+                    <a href="photos.html">Photo Gallery</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+                <div class="footer-col">
+                    <h3>Sign Up Now</h3>
+                    <form>
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit">Sign Up</button>
+                    </form>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <p>Wadi al Hadraj, As-safa 1, Jeddah KSA</p>
+                    <p>Email: xyz@gmail.com</p>
+                    <p>Phone: +966 560725632</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Fitness Hub. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </section>
+
+
+</body>
+</html>
